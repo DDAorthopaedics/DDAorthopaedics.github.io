@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Pēteris Paikens -- Site implementation
+    Aivis Gailītis -- Design consultations
+
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Twitter Bootstrap, jQuery

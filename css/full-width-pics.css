@@ -11,6 +11,7 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    position:relative;
 }
 
 .image-bg-fluid-height {

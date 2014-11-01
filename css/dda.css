@@ -4,8 +4,8 @@
 
 .dda-contacts-box {
 	position: absolute;
-	height:100%;
-	width:100%;
+	left:0px;
+	right:0px;
 }
 
 .dda-contacts {
@@ -16,6 +16,44 @@
 	color:white;
 }
 
-.h1 {
+.dda-portrait {
+	margin-bottom: 5px;
+}
+
+h1 {
 	font-family: "PT Sans";
+}
+
+.equal, .equal > div[class*='col-'] {  
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
+
+.top15 { margin-top:15px; }
+
+body {
+     margin: 0;
+     background: url("../img/crossword.png") repeat;
+ }
+
+
+ /* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  padding:10px;
 }
