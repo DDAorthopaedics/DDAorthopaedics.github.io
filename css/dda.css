@@ -1,0 +1,21 @@
+.dda-logo {
+	height:200px;
+}
+
+.dda-contacts-box {
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+
+.dda-contacts {
+	padding:40px;
+	color:white;
+}
+.dda-contacts a:link {
+	color:white;
+}
+
+.h1 {
+	font-family: "PT Sans";
+}
