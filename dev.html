@@ -11,7 +11,7 @@
     <link href='http://fonts.googleapis.com/css?family=Oxygen&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
     <link href="css/full-width-pics.css" rel="stylesheet">
     <link href="css/dda.css" rel="stylesheet">
@@ -31,7 +31,7 @@
     <meta name="msapplication-TileImage" content="img/mstile-144x144.png" />
   </head>
   <body>
-    <div class="container">
+    <div class="container tab-content">
       <!-- Full Width Image Header with Logo -->
       <!-- Image backgrounds are set within the full-width-pics.css file. -->
       <header class="image-bg-fixed-height">
@@ -47,37 +47,88 @@
           </div>
         </div>
         <img class="img-responsive img-center dda-logo" src="img/logo.svg" alt="DDA orthopaedics logo">
+        <ul class="nav" data-tabs="tabs">
+          <li><a href="#about" data-toggle="tab">Par mums</a></li>
+          <li><a href="#people" data-toggle="tab">Darbinieki</a></li>
+          <li><a href="#contacts" data-toggle="tab">Kontakti</a></li>
+          <li><a href="#prices" data-toggle="tab">Cenas</a></li>
+        </ul>
       </header>
-      <div class="row">
+      <div class="row tab-pane active top15" id="about">
+        <div class="col-md-8 col-sm-6">
+          <h3>Par mums</h3>
+Mūsu vīzija – palīdzēt uzlabot dzīves kvalitāti pacientiem, kuri ar savu enerģiju un entuziasmu, izturību un iekšējo spēku ir gatavi atklāt jaunas dzīves iespējas.<br/><br/>
+Tehniskās ortopēdijas uzņēmums DDA Orthopaedics nodarbojas ar dažāda veida ekstremitāšu protēžu un ortožu izgatavošanu, pielāgošanu, kā arī pacientu apmācību.<br/>
+Savā darbībā mēs atšķiramies ne tikai ar kvalitāti, bet arī ar pozitīvu attieksmi pret pacientiem, kolēģiem un sadarbības partneriem. Mēs cenšamies būt inovatīvi un piedāvāt risinājumus katram pacientam, kas būtiski paplašina iespējas funkcionalitātes atgūšanā un nostiprināšanā maksimāli īsā laika posmā.<br/>
+Uzņēmuma DDA Orthopaedics sadarbība ar vadošajiem Latvijas speciālistiem dažādās nozarēs ļauj piedāvāt pacientam labāko risinājumu un tuvināties mērķim - dzīvot pilnvērtīgu dzīvi.<br/>
+Mūsu uzņēmums izsaka pateicību saviem pacientiem, darbiniekiem un sadarbības partneriem par izrādīto uzticību un doto iespēju būt kopā ar jums.<br/><br/>
+Lai mums visiem izdodas!<br/>
+<h3>
+  Kārlis Lācis<br/>
+  <small>
+    SIA DDA Orthopaedics valdes priekšsēdētājs<br/>
+  </small>
+</h3>
+        </div>          
         <div class="col-md-4 col-sm-6">          
+          <img class="dda-portrait img-responsive" src="img/karlis.png" alt="Kārlis Lācis">
+        </div>
+      </div>
+      <div class="row tab-pane" id="people">
+        <div class="col-md-3 col-sm-6">          
           <h3>
             <img class="dda-portrait img-responsive" src="img/karlis.png" alt="Kārlis Lācis">
             Kārlis Lācis<br/>
-            <small>Sertificēts tehniskais ortopēds</small>
+            <small>
+              SIA DDA Orthopaedics valdes priekšsēdētājs<br/>
+              Sertificēts tehniskais ortopēds<br/>
+              Rīgas Stradiņa universitātes pasniedzējs<br/>
+              Protezēšanas, ortozēšanas un tehniskās ortopēdijas asociācijas dibinātājs<br/>
+              Protezēšanas, ortozēšanas un tehniskās ortopēdijas asociācijas sertifikācijas komisijas sekretārs<br/>
+              ISPO - International Society for prosthetics and orthotics biedrs<br/>
+            </small>
           </h3>
         </div>
-        <div class="col-md-4 col-sm-6">          
+        <div class="col-md-3 col-sm-6">          
           <h3>
             <img class="dda-portrait img-responsive" src="img/guntis.png" alt="Guntis Raipalis">
             Guntis Raipalis<br/>
-            <small>Sertificēts tehniskais ortopēds</small>
+            <small>
+              SIA DDA Orthopaedics valdes loceklis<br/>
+              Sertificēts tehniskais ortopēds<br/>
+              Rīgas Stradiņa universitātes pasniedzējs<br/>
+              Protezēšanas, ortozēšanas un tehniskās ortopēdijas asociācijas valdes loceklis<br/>
+              ISPO - International Society for prosthetics and orthotics biedrs<br/>
+            </small>
           </h3>
         </div>
-        <div class="col-md-4 col-sm-6">          
+        <div class="col-md-3 col-sm-6">          
           <h3>
             <img class="dda-portrait img-responsive" src="img/anda.png" alt="Anda Blūma">
             Anda Blūma<br/>
-            <small>Sertificēts tehniskais ortopēds</small>
+            <small>
+              Sertificēts tehniskais ortopēds<br/>
+              Rīgas Stradiņa universitātes pasniedzēja<br/>
+              Protezēšanas, ortozēšanas un tehniskās ortopēdijas asociācijas biedrs
+            </small>
+          </h3>
+        </div>
+        <div class="col-md-3 col-sm-6">          
+          <h3>
+            <img class="dda-portrait img-responsive" src="img/anda.png" alt="Anda Blūma">
+            Baiba Smilškalne<br/>
+            <small>
+              Fizikālās terapijas un rehabilitācijas ārsts
+            </small>
           </h3>
         </div>
       </div>
-      <div class="row top15">
-        <div class="col-md-7">
-          <iframe name="map_iframe" width="100%" height="530" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=32%20Balo%C5%BEu%20iela%2C%20R%C4%ABga%2C%20R%C4%ABgas%20pils%C4%93ta%2C%20Latvia&key=AIzaSyBRt206s9Wyo6f6W2iqZQadhzinTBRSqyQ"></iframe>
+      <div class="row top15 tab-pane" id="contacts">
+        <div class="col-md-6">
+          <iframe name="map_iframe" id="map_iframe" width="100%" min-width="100" height="508" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=32%20Balo%C5%BEu%20iela%2C%20R%C4%ABga%2C%20R%C4%ABgas%20pils%C4%93ta%2C%20Latvia&key=AIzaSyBRt206s9Wyo6f6W2iqZQadhzinTBRSqyQ"></iframe>
         </div>
-        <div class="col-md-5">
-          <h1 style="margin-top:0px">Kontakti</h1>
-          <p>Pacientu pieņemšana pēc iepriekšēja pieraksta:</p>
+        <div class="col-md-6">
+          <h3>Pacientu pieņemšana pēc iepriekšēja pieraksta:</h3>
           &nbsp;&nbsp;<span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;&nbsp; +371 29457868<br/>
           &nbsp;&nbsp;<a href="mailto:#"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;&nbsp; info@DDAorthopaedics.lv</a><br/>
           <h3>Darba laiki Rīgā, Baložu ielā 32</h3>
@@ -88,7 +139,6 @@
           Piektdien 9:00 - 15:00<br/>
           Sestdien, Svētdien slēgts<br/>
           <h3>Reģionos</h3>
-          Pacientu pieņemšana pēc iepriekšēja pieraksta:<br/>
           Kurzemes reģions, Talsu novads, <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2158.747349763163!2d22.599128399999998!3d57.2438957!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ee38211e269089%3A0x134fb73ba0366345!2zVm9sZGVtxIFyYSBSdcSjxJNuYSBpZWxhIDUsIFRhbHNpLCBUYWxzdSBwaWxzxJN0YSwgTFYtMzIwMSwgTGF0dmlh!5e0!3m2!1sen!2s!4v1424679731143" target="map_iframe">Talsi, V.Ruģēna iela 4</a><br/>
           Latgales reģions, Ludzas novads, <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2199.6906306159417!2d27.7130337!3d56.5419693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c2254686a10cfb%3A0xb961830f96e0e1e!2sRai%C5%86a+iela+43%2C+Ludza%2C+Ludzas+pils%C4%93ta%2C+LV-5701%2C+Latvia!5e0!3m2!1sen!2s!4v1424679877412" target="map_iframe">Ludza, Raiņa iela 43</a><br/>
           Vidzemes reģions, Cēsu novads, <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2154.827861612387!2d25.276974199999998!3d57.31079929999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ebe18fc1d96c85%3A0x58b1686d9c03f941!2zS3JpxaFqxIHFhmEgVmFsZGVtxIFyYSBpZWxhIDEzLCBDxJNzaXMsIEPEk3N1IHBpbHPEk3RhLCBMVi00MTAxLCBMYXR2aWE!5e0!3m2!1sen!2s!4v1424679990012" target="map_iframe">Cēsis, Kr. Valdemāra iela 13</a><br/>
@@ -96,7 +146,8 @@
           <br/>
           SIA "DDA Orthopaedics"<br/>
           Reģistrācijas numurs 50103820061<br/>
-          Baložu iela 32-2, Rīga, LV-1048
+          Baložu iela 32-2, Rīga, LV-1048<br/>
+          DNB Banka, SWIFT kods RIKOLV2X, norēķinu konts LV63RIKO0002930186805
         </div>
       </div>
       <div class="row equal top15">
@@ -145,6 +196,9 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="js/jquery.stickytabs.js"></script>
+    <script src="js/dda.js"></script>
+
   </body>
 </html>
