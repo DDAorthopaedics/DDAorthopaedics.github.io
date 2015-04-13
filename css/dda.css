@@ -42,14 +42,20 @@ body {
 .nav {
   list-style-type:none;
   margin-top:-15px;
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNg8AEAAE8ATQl3kQIAAAAASUVORK5CYII=);
+  text-transform: uppercase;
 }
 .nav>li {
-  display:inline;
+  display:inline-block;
+  padding: 6px;
+}
+.nav>li+li {
+  border-left: 1px solid #DDD4CF
 }
 .nav>li>a{
   display:inline;
   color:white;
-  font-size: 24px;
+  font-size: 20px;
   padding:0px 20px 20px;
 }
 .nav>li>a:focus, .nav>li>a:hover{
