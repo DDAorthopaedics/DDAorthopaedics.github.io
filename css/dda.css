@@ -16,6 +16,9 @@
 .dda-contacts a:link, .dda-contacts a:visited {
 	color:white;
 }
+a:link, a:visited {
+  color:#B4D5EF;
+}
 
 .dda-portrait {
 	margin-bottom: 5px;
@@ -24,7 +27,7 @@
 h1 {
 	font-family: "PT Sans";
 }
-h3 {
+h3:first-child {
   margin-top:inherit;
 }
 
@@ -88,6 +91,11 @@ body > .container {
   text-decoration: underline;
 }
 
+#partners div {
+  /*background-color: white;*/
+  /*background-clip:content-box;*/
+}
+
  /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -107,4 +115,5 @@ body {
   background-color: #244B82;
   border-top: 1px solid #202F5F;
   padding:10px;
+  color:#ccc;
 }
