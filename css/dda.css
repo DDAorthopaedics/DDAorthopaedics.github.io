@@ -56,7 +56,8 @@ body > .container {
   list-style-type:none;
   margin-top:-15px;
   text-transform: uppercase;
-  background-color: #1B75BB; 
+  /*background-color: #1B75BB; */
+  background-color: #202F5F;
   /* transparentais img*/
   /* background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNg8AEAAE8ATQl3kQIAAAAASUVORK5CYII=);*/
 }
