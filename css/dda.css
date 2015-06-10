@@ -56,13 +56,14 @@ body > .container {
   list-style-type:none;
   margin-top:-15px;
   text-transform: uppercase;
-  background-color: #202F5F;
+  background-color: #1B75BB; 
   /* transparentais img*/
   /* background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNg8AEAAE8ATQl3kQIAAAAASUVORK5CYII=);*/
 }
 .nav>li {
   display:inline-block;
   padding: 6px;
+  background-color: #202F5F;
   border-right: 1px solid #1B75BB;
   border-left: 1px solid #1B75BB;
 }
