@@ -39,9 +39,12 @@ body {
      background-color: #244B82;
 }
 
-.container {
-  /*background-color: #1B75BB;*/
+body > .container {
+  background-color: #1B75BB;
   background-clip:content-box;
+}
+.tab-pane {
+  margin:0;
 }
 
 .nav {
