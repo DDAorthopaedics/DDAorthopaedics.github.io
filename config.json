@@ -11,8 +11,8 @@
     "@brand-info": "#5bc0de",
     "@brand-warning": "#f0ad4e",
     "@brand-danger": "#d9534f",
-    "@body-bg": "#fff",
-    "@text-color": "@gray-dark",
+    "@body-bg": "#1B75BB",
+    "@text-color": "white",
     "@link-color": "@brand-primary",
     "@link-hover-color": "darken(@link-color, 15%)",
     "@link-hover-decoration": "underline",
@@ -94,6 +94,7 @@
     "@input-height-base": "(@line-height-computed + (@padding-base-vertical * 2) + 2)",
     "@input-height-large": "(ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2)",
     "@input-height-small": "(floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2)",
+    "@form-group-margin-bottom": "15px",
     "@legend-color": "@gray-dark",
     "@legend-border-color": "#e5e5e5",
     "@input-group-addon-bg": "@gray-lighter",
@@ -380,8 +381,11 @@
     "type.less",
     "grid.less",
     "tables.less",
+    "forms.less",
     "responsive-utilities.less",
     "glyphicons.less",
+    "navs.less",
+    "navbar.less",
     "thumbnails.less",
     "panels.less",
     "close.less",
@@ -391,7 +395,6 @@
   "js": [
     "alert.js",
     "button.js",
-    "carousel.js",
     "dropdown.js",
     "modal.js",
     "tooltip.js",
@@ -402,5 +405,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=1cb136ca882936123bf2"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=8d676b3e6fb91a98223c"
 }
