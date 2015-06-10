@@ -96,6 +96,10 @@ body > .container {
   /*background-clip:content-box;*/
 }
 
+table tr:first-child td {
+  border-top: 0px;
+}
+
  /* Sticky footer styles
 -------------------------------------------------- */
 html {
