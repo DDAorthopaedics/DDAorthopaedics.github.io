@@ -35,7 +35,8 @@ h1 {
 
 body {
      margin: 0;
-     background: url("../img/foninsh.jpg") repeat;
+     /*background: url("../img/foninsh.jpg") repeat;*/
+     background-color: #244B82;
 }
 
 .container {

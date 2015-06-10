@@ -20,8 +20,8 @@
 }
 
 .image-bg-fixed-height {
-    background-color: #244B82; 
-	/*background: url('../img/header2.jpg') no-repeat center center scroll;*/
+    /*background-color: #244B82; */
+	background: url('../img/header2.jpg') no-repeat center center scroll;
     /*height: 240px;*/
 }
 
