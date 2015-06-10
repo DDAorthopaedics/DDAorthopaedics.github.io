@@ -63,9 +63,15 @@ body > .container {
 .nav>li {
   display:inline-block;
   padding: 6px;
+  border-right: 1px solid #1B75BB;
+  border-left: 1px solid #1B75BB;
+}
+.nav>.active {
+  background-color: #1B75BB;
 }
 .nav>li+li {
-  border-left: 1px solid #DDD4CF;
+  border-left: 0px;
+  /*border-left: 1px solid #DDD4CF;*/
   /*border-left: 1px solid #1B75BB;*/
 }
 .nav>li>a{
@@ -96,6 +102,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #202F5F;
+  background-color: #244B82;
+  border-top: 1px solid #202F5F;
   padding:10px;
 }
