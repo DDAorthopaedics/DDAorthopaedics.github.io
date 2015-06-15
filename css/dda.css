@@ -91,9 +91,8 @@ body > .container {
   text-decoration: underline;
 }
 
-#partners div {
-  /*background-color: white;*/
-  /*background-clip:content-box;*/
+#partners {
+  background-color: white;
 }
 
 table tr:first-child td {

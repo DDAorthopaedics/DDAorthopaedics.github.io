@@ -11,7 +11,9 @@
     <link href='http://fonts.googleapis.com/css?family=Oxygen&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
     <link href="css/full-width-pics.css" rel="stylesheet">
     <link href="css/dda.css" rel="stylesheet">
@@ -22,41 +24,226 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="DDA orthopaedics"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="img/mstile-144x144.png" />
   </head>
   <body>
-    <div class="container">
+    <div class="container tab-content">
       <!-- Full Width Image Header with Logo -->
       <!-- Image backgrounds are set within the full-width-pics.css file. -->
       <header class="image-bg-fixed-height">
         <div class="dda-contacts-box">
           <div class="pull-left dda-contacts">
             <address>
-              <a href="mailto:info@DDAorthopaedics.lv"><span class="glyphicon glyphicon-envelope"></span> info@DDAorthopaedics.lv</a>
+              <a href="mailto:info@DDAorthopaedics.lv"><span class="glyphicon glyphicon-envelope"></span> info@DDAorthopaedics.lv</a><br/>
+              <span class="glyphicon glyphicon-earphone"></span> +371 29457868<br/>
             </address>
           </div>
+<!--           <div class="pull-right dda-contacts">
+            <a href="#">English</a> | <a href="#">По-русски</a>
+          </div> -->
         </div>
         <img class="img-responsive img-center dda-logo" src="img/logo.svg" alt="DDA orthopaedics logo">
-
+        <ul class="nav" data-tabs="tabs">
+          <li class="active"><a href="#about" data-toggle="tab">Par mums</a></li><li>
+          <a href="#people" data-toggle="tab">Darbinieki</a></li><li>
+          <a href="#contacts" data-toggle="tab">Kontakti</a></li><li><a href="#services" data-toggle="tab">Pakalpojumi</a></li><li>
+          <a href="#partners" data-toggle="tab">Sadarbības partneri</a></li>
+        </ul>
       </header>
-      <div class="row">
-        <h1 style="text-align:center;">Under construction !</h1>
-        <!--
-        <div class="col-md-4">
-          Kontakti
+      <div class="row tab-pane active top15" id="about">
+        <div class="col-md-8 col-sm-6">
+<h4>Mūsu vīzija – palīdzēt uzlabot dzīves kvalitāti pacientiem, kuri ar savu enerģiju un entuziasmu, izturību un iekšējo spēku ir gatavi atklāt jaunas dzīves iespējas.</h4>
+Tehniskās ortopēdijas uzņēmums <i>DDA Orthopaedics</i> nodarbojas ar dažāda veida ekstremitāšu protēžu un ortožu izgatavošanu, pielāgošanu, kā arī pacientu apmācību.<br/>
+Savā darbībā mēs atšķiramies ne tikai ar kvalitāti, bet arī ar pozitīvu attieksmi pret pacientiem, kolēģiem un sadarbības partneriem. Mēs cenšamies būt inovatīvi un piedāvāt risinājumus katram pacientam, kas būtiski paplašina iespējas funkcionalitātes atgūšanā un nostiprināšanā maksimāli īsā laika posmā.<br/>
+Uzņēmuma <i>DDA Orthopaedics</i> sadarbība ar vadošajiem Latvijas speciālistiem dažādās nozarēs ļauj piedāvāt pacientam labāko risinājumu un tuvināties mērķim - dzīvot pilnvērtīgu dzīvi.<br/>
+Mūsu uzņēmums izsaka pateicību saviem pacientiem, darbiniekiem un sadarbības partneriem par izrādīto uzticību un doto iespēju būt kopā ar jums.<br/><br/>
+Lai mums visiem izdodas!<br/>
+<h3>
+  Kārlis Lācis<br/>
+  <small>
+    SIA <i>DDA Orthopaedics</i> valdes priekšsēdētājs<br/>
+  </small>
+</h3>
+        </div>          
+        <div class="col-md-4 col-sm-6">          
+          <img class="dda-portrait img-responsive" src="img/karlis.png" alt="Kārlis Lācis">
         </div>
-        <div class="col-md-4">
-          Pakalpojumi
+      </div>
+      <div class="row tab-pane" id="people">
+        <div class="col-md-3 col-sm-6">          
+          <h3>
+            <img class="dda-portrait img-responsive" src="img/karlis2.png" alt="Kārlis Lācis">
+            Kārlis Lācis<br/>
+            <small>
+              SIA <i>DDA Orthopaedics</i> valdes priekšsēdētājs<br/>
+              Sertificēts tehniskais ortopēds<br/>
+              Rīgas Stradiņa universitātes pasniedzējs<br/>
+              Protezēšanas, ortozēšanas un tehniskās ortopēdijas asociācijas dibinātājs<br/>
+              ISPO - International Society for prosthetics and orthotics biedrs<br/>
+            </small>
+          </h3>
         </div>
-        <div class="col-md-4">
-          Komanda
+        <div class="col-md-3 col-sm-6">          
+          <h3>
+            <img class="dda-portrait img-responsive" src="img/guntis2.png" alt="Guntis Raipalis">
+            Guntis Raipalis<br/>
+            <small>
+              SIA <i>DDA Orthopaedics</i> valdes loceklis<br/>
+              Sertificēts tehniskais ortopēds<br/>
+              Rīgas Stradiņa universitātes pasniedzējs<br/>
+              Protezēšanas, ortozēšanas un tehniskās ortopēdijas asociācijas valdes loceklis<br/>
+              ISPO - International Society for prosthetics and orthotics biedrs<br/>
+            </small>
+          </h3>
         </div>
-        -->
+        <div class="col-md-3 col-sm-6">          
+          <h3>
+            <img class="dda-portrait img-responsive" src="img/anda2.png" alt="Anda Blūma">
+            Anda Blūma<br/>
+            <small>
+              Sertificēts tehniskais ortopēds<br/>
+              Rīgas Stradiņa universitātes pasniedzēja<br/>
+              Protezēšanas, ortozēšanas un tehniskās ortopēdijas asociācijas biedrs
+            </small>
+          </h3>
+        </div>
+        <div class="col-md-3 col-sm-6">          
+          <h3>
+            <img class="dda-portrait img-responsive" src="img/baiba.jpg" alt="Anda Blūma">
+            Baiba Smilškalne<br/>
+            <small>
+              Fizikālās un rehabilitācijas medicīnas ārsts
+            </small>
+          </h3>
+        </div>
+      </div>
+      <div class="row top15 tab-pane" id="contacts">
+        <div class="col-md-6">
+          <iframe name="map_iframe" id="map_iframe" width="100%" min-width="100" height="508" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=32%20Balo%C5%BEu%20iela%2C%20R%C4%ABga%2C%20R%C4%ABgas%20pils%C4%93ta%2C%20Latvia&key=AIzaSyBRt206s9Wyo6f6W2iqZQadhzinTBRSqyQ"></iframe>
+        </div>
+        <div class="col-md-6">
+          <h3>Pacientu pieņemšana pēc iepriekšēja pieraksta:</h3>
+          &nbsp;&nbsp;<span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;&nbsp; +371 29457868<br/>
+          &nbsp;&nbsp;<a href="mailto:#"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;&nbsp; info@DDAorthopaedics.lv</a><br/>
+          <h3>Darba laiki Rīgā, Baložu ielā 32</h3>
+          Pirmdien 9.00 - 17.00<br/>
+          Otrdien 12.00 - 20.00<br/>
+          Trešdien 9.00 - 17.00<br/>
+          Ceturtdien 9.00 - 17.00<br/>
+          Piektdien 9.00 - 15.00<br/>
+          Sestdien, Svētdien slēgts<br/>
+          <small>Ārstniecības iestādē personām ar funkcionāliem traucējumiem ir nodrošināta iespēja saņemt veselības aprūpes pakalpojumus.</small>
+          <h3>Reģionos</h3>
+          Kurzemes reģions, Talsu novads, <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2158.747349763163!2d22.599128399999998!3d57.2438957!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ee38211e269089%3A0x134fb73ba0366345!2zVm9sZGVtxIFyYSBSdcSjxJNuYSBpZWxhIDUsIFRhbHNpLCBUYWxzdSBwaWxzxJN0YSwgTFYtMzIwMSwgTGF0dmlh!5e0!3m2!1sen!2s!4v1424679731143" target="map_iframe">Talsi, V.Ruģēna iela 4</a><br/>
+          Latgales reģions, Ludzas novads, <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2199.6906306159417!2d27.7130337!3d56.5419693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c2254686a10cfb%3A0xb961830f96e0e1e!2sRai%C5%86a+iela+43%2C+Ludza%2C+Ludzas+pils%C4%93ta%2C+LV-5701%2C+Latvia!5e0!3m2!1sen!2s!4v1424679877412" target="map_iframe">Ludza, Raiņa iela 43</a><br/>
+          Vidzemes reģions, Cēsu novads, <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2154.827861612387!2d25.276974199999998!3d57.31079929999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ebe18fc1d96c85%3A0x58b1686d9c03f941!2zS3JpxaFqxIHFhmEgVmFsZGVtxIFyYSBpZWxhIDEzLCBDxJNzaXMsIEPEk3N1IHBpbHPEk3RhLCBMVi00MTAxLCBMYXR2aWE!5e0!3m2!1sen!2s!4v1424679990012" target="map_iframe">Cēsis, Kr. Valdemāra iela 13</a><br/>
+          Vidzemes regions, Rūjienas novads, <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2120.8027198472773!2d25.325761199999995!3d57.88950719999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec787bfd41f2f1%3A0xd710ac743f9b57fb!2zVmFsZGVtxIFyYSBpZWxhIDI2LCBSxatqaWVuYSwgUsWramllbmFzIHBpbHPEk3RhLCBMVi00MjQwLCBMYXR2aWE!5e0!3m2!1sen!2s!4v1424680023874" target="map_iframe">Rūjiena, Valdemāra iela 26</a><br/>
+          <br/>
+          SIA <i>"DDA Orthopaedics"</i><br/>
+          Reģistrācijas numurs 50103820061<br/>
+          Baložu iela 32-2, Rīga, LV-1048<br/>
+          DNB Banka, SWIFT kods RIKOLV2X, norēķinu konts LV63RIKO0002930186805
+        </div>
+      </div>
+      <div class="row top15 tab-pane" id="services">
+        <div class="col-md-7">
+          <h3>Cenas</h3>
+<table class="table table-condensed">          
+<tr><td>Tehniskā ortopēda konsultācija:</td><td></td><tr/>
+<tr><td>Bērni</td><td>15.00 EUR</td><tr/>
+<tr><td>Pieaugušie</td><td>20.00 EUR</td><tr/>
+<tr><td>Rehabilitācijas ārsta konsultācija:</td><td>25.00 EUR</td></tr>
+</table>
+<h3>Individuālo izstrādājumu cenas</h3>
+<p>Individuāli izgatavotajiem tehniskajiem palīglīdzekļiem pakalpojuma cena tiek noteikta katram gadījumam atsevišķi, ņemot vērā izstrādājuma veidu, izmantotos materiālus un sarežģītības pakāpi. 
+Lai uzzinātu sīkāku informāciju, lūgums zvanīt pa tālruni 29457868.</p>
+Saņemot tehniskos palīglīdzekļus par valsts budžeta līdzekļiem maksājama vienreizēja valsts nodeva:
+<table class="table table-condensed">          
+<tr><td>Personas līdz 18 gadiem</td><td>1,42 EUR</td><tr/>
+<tr><td>Personas vecākas par 18 gadiem</td><td>7,11 EUR</td><tr/>
+</table>
+No vienreizējās iemaksas, uzrādot attiecīgu izziņu, ir atbrīvota:
+<ul>
+<li>trūcīga persona;</li>
+<li>persona, kura atrodas ilgstošas sociālās aprūpes un sociālās rehabilitācijas institūcijā;</li>
+<li>persona, kuras dzīvesvieta reģistrēta stacionārā ārstniecības iestādē;</li>
+<li>persona, kura izcieš sodu brīvības atņemšanas vietā.</li>
+</ul>
+Par tehnisko palīglīdzekļu pakalpojumu saņemšanu iespējams norēķināties tikai SKAIDRĀ NAUDĀ vai ar <a href="#contacts" data-toggle="tab">BANKAS PĀRSKAITĪJUMU.</a>
+        </div>
+        <div class="col-md-5">
+          <h3>Pakalpojumi</h3>
+<ul>              
+<li>augšējo un apakšējo ekstremitāšu protezēšana;</li>
+<li>augšējo un apakšējo ekstremitāšu cieto un mīksto ortožu izgatavošana;</li>
+<li>ķermeņa ortožu izgatavošana;</li>
+<li>pacientiem pēc apdegumiem rehabilitācijas periodā – rētu profilaksei - kompresijas apģērbs;</li>
+<li>tehniskā ortopēda konsultācijas;</li>
+<li>rehabilitācijas ārsta konsultācijas.</li>
+</ul>
+
+Tehniskos palīglīdzekļus iespējams saņemt par valsts budžeta līdzekļiem. Šo saņemšanas kārtību regulē VSIA „Nacionālais rehabilitācijas centrs Vaivari” Tehnisko palīglīdzekļu centrs.<br/>
+Informācija atrodama <a href="http://www.nrcvaivari.lv/index.php?55">VSIA „NRC Vaivari” mājas lapā.</a>
+</p>
+        </div>
+      </div>
+      <div class="row top15 tab-pane" id="partners">
+        <div class="col-md-2">
+          <a href="http://www.rsu.lv"><img class="img-responsive" src="img/logo_RSU.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.ludzahospital.lv"><img class="img-responsive" src="img/logo_LMC.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.talsuveselibascentrs.lv"><img class="img-responsive" src="img/logo_talsi.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.amicus.lv"><img class="img-responsive" src="img/logo_AmicusPro.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.ottobock.com"><img class="img-responsive" src="img/logo_ottobock.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.streifeneder.de"><img class="img-responsive" src="img/logo_streifeneder.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.ispoint.org"><img class="img-responsive" src="img/logo_ispo.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.nrcvaivari.lv"><img class="img-responsive" src="img/logo_vaivari.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.orthoprim.es/"><img class="img-responsive" src="img/logo_prim.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.ortoiberica.es/"><img class="img-responsive" src="img/logo_ortoiberica.png"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="http://www.fillauer.com/"><img class="img-responsive" src="img/logo_fillauer.jpg"></a>
+        </div>        
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div class="container">        
+        <a href="mailto:#"><span class="glyphicon glyphicon-envelope"></span> info@DDAorthopaedics.lv</a>        
+        <p> © SIA "DDA Orthopaedics" 2014</p>
       </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- // <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.stickytabs.js"></script>
+    <script src="js/dda.js"></script>
+
   </body>
 </html>
