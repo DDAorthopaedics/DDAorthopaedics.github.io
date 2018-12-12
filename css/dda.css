@@ -22,7 +22,14 @@ a:link, a:visited {
 
 .dda-portrait {
 	margin-bottom: 5px;
+  margin-left: 5%;
+  max-width: 60%;
 }
+
+.dda-partner {
+  min-height: 83px;
+}
+
 
 h1 {
 	font-family: "PT Sans";
