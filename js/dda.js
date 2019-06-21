@@ -4,4 +4,12 @@ $('[data-toggle="tab"]').click('shown', function(e) {
   mapFrame.attr('src', mapFrame.attr('src')+'');
 });
 
+
 $('.nav').stickyTabs();
+
+
+// Google Analytics
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-139436079-2');
